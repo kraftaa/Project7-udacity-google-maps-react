@@ -39,7 +39,7 @@ class App extends Component {
 }
 
   renderMap = () => {
-    loadMap("https://maps.googleapis.com/maps/api/js?key=AIzaSyCIgum1zb5V0e5Z6em7zkzPhbM7R_E2eB0&callback=initMap")
+    loadMap("https://maps.googleapis.com/maps/api/js?key=&callback=initMap")
     window.initMap = this.initMap
     // window.initAutocomplete = this.initAutocomplete
   }
