@@ -92,17 +92,3 @@ h3 {
   font-size: 1em;
   border: solid purple;
 }
-
-/*Nexus 5*/
-
-@media screen and (max-width: 360px) {
-  header, .side {
-    font-size: 0.6em;
-  }
-
-.icon-bar {
-      width: 35px;
-      height: 5px;
-    }
-
-}

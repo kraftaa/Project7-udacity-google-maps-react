@@ -175,7 +175,7 @@ class App extends Component {
   render() {
    var message = '. You are searching for  ' + this.state.querySelector + ' venues';
 
-   // console.log("cat", this.state.querySelector)
+   console.log("cat", this.state.querySelector)
           // console.log("venues", this.state.venues)
       return (
         <div className='app'>
